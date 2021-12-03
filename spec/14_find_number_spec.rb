@@ -119,8 +119,9 @@ describe FindNumber do
 
     # Before you write the #make_guess method:
     # Write a test that would expect #make_guess to return the average of
-    # the min and max values (rounded down). Don't expect this test to be
-    # able to pass as you haven't written #make_guess yet!
+    # the min and max values (rounded down). The test will fail as you
+    # haven't written #make_guess, so it will result in an error for an
+    # undefined method.
     context 'when min is 0 and max is 9' do
       xit 'returns 4' do
       end
