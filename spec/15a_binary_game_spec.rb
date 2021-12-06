@@ -169,6 +169,9 @@ describe BinaryGame do
   describe '#verify_input' do
     # Located inside #play_game (Looping Script Method)
     # Query Method -> Test the return value
+    let(:min) { 0 }
+    let(:max) { 9 }
+    subject(:verify_me) { described_class.new(min, max) }
 
     # Note: #verify_input will only return a number if it is between?(min, max)
 
